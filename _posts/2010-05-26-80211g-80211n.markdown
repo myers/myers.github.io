@@ -1,0 +1,14 @@
+---
+layout: post
+title: "From 802.11g to 802.11n"
+date: 2010-05-26T23:36:10
+tags: ["wifi"]
+---
+
+File Transfer speed:
+
+802.11g: 98MB   2.1MB/s   00:47
+
+802.11n: 98MB   4.7MB/s   00:21
+
+

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Mini ITX"
+date: 2003-04-16T08:30:15
+tags: []
+---
+
+The Hush Tech. [Silent Mini-ITX PC][1] is pretty darn neat. I want one for a set top box. 
+
+What would be better is a case with a dot matrix lcd panel covering the front, front side IR port, and 4 front side usb ports. 
+
+Next you run Freevo (because it's python) and Mnet, and MAME+SNES9X+whatever other game system. 
+
+   [1]: http://www.hushtechnologies.net/hushmini.htm
+
+
+

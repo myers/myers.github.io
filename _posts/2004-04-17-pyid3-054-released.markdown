@@ -1,0 +1,15 @@
+---
+layout: post
+title: "pyid3 0.5.4 released"
+date: 2004-04-17T23:38:30
+tags: ["python"]
+---
+
+I just uploaded [pyid3 0.5.4][1]. It's a small bug fix for id3v1 tags that have the genre field blank. Thanks goes to Torgil Svensson for a patch, and Greg Abbas for also pointing out the problem.
+
+**UPDATE:** removing it because I didn't run unit test and released it with a big fat bug.
+
+   [1]: /projects/pyid3/
+
+
+

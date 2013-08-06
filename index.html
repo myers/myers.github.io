@@ -1,12 +1,18 @@
-<!DOCTYPE html> 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
-<head> 
-  <meta charset=utf-8 /> 
-  <title>a title</title> 
-</head> 
-<body> 
+---
+layout: default
+title: "Recent Posts"
+---
 
-<h1>Hi</h1>
+{% for post in site.posts offset: 0 limit: 10 %}
 
-</body> 
-</html>
+<div>
+    <h3 class="story"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <div class="story">
+     {{ post.content }}
+    
+        <p class="posted"><a href="{{ post.url }}">permalink</a> | 
+         {{ post.date | date_to_string }} | tags: {{ post.tags | join: ', ' }}</p>
+     </div>
+ </div>
+
+{% endfor %}

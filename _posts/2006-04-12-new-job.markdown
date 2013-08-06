@@ -1,0 +1,17 @@
+---
+layout: post
+title: "New Job"
+date: 2006-04-12T16:07:29
+tags: []
+---
+
+<p>So I have a new job that started two weeks ago.  I&#8217;m now a web developer at <a href="http://www.rosettastone.com/">Rosetta Stone</a> .  Their website is built using Ruby on Rails, so I&#8217;m someone is paying me a to learn a new language, can&#8217;t get any better than that.</p>
+
+<p>Also the team I work with kick ass.  Unlike my last few jobs where I was the only coder/techie person physically there, I&#8217;m part of a team of 8 people, all of whom bring their own style of <strong>hotness</strong> to the group (hot being the word of highest praise).</p>
+
+<p>One of the things they do in a job interview is an IQ test.  They are moving away from having a hard go/no go score when they give these out, but as you talk with people around the company you can feel the collective mental powers radiating everywhere.  Worse some of them are married to each other and they will soon have brainaic children that will no doubt enslave the world.</p>
+
+<p>I&#8217;ve spent most of the 5 weeks getting Trac up and running for our team and adding custom fields and reports for what we need to do. When I got to the project the team had three &#8220;todo&#8221; lists: product/sprint backlog in Excel stored in <span class="caps">SVN</span> (we use the Scrum team management method), Bugzilla for formal QA, and Quickbase (an <span class="caps">ASP</span> intuit offers for business forms).  A mess.  The backlog has moved into Trac, but I don&#8217;t know if trac can elegantly accommodate Bugzilla and the Quickbase stuff.  We need very different fields for these tickets and trac has the same fields for all ticket types.  Subtickets would be really nice too.</p>
+
+<p>I have done some Rails stuff, and the main trouble there is deployment.  We use Apache + <span class="caps">FCGI</span> in the production site, and the built in ruby web server for development, but we have two rails apps that make up our site.  The few changes I&#8217;ve had to make spanned these two apps and made testing them quite a pain.</p>
+

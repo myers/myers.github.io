@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Beepcard"
+date: 2004-04-17T09:11:46
+tags: []
+---
+
+Also from [Crypto-Gram][1]: [BeepCard][2]
+
+> BeepCard is a technology company. They sell a sound authenticator for credit cards. The demo looks like a credit card -- an actual credit card that passes all the credit card specs for bendability and reliability and everything -- and contains a speaker and a sound chip. When you press a certain part of the card -- the "button" -- it spits out an audible 128-bit random string.
+> 
+> [...]
+> 
+> Why do I like this? It's a physical authentication system that doesn't require any special reader hardware. You can use it on a random computer at an Internet cafe. You can use it on a telephone. I can think of all sorts of really easy, really cool applications. If the price is cheap enough, BeepCard has a winner here.
+
+   [1]: http://www.schneier.com/crypto-gram-0404.html#7
+   [2]: http://www.beepcard.com/
+
+
+

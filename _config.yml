@@ -1,0 +1,7 @@
+name: Shutup and Code
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+
+permalink: pretty

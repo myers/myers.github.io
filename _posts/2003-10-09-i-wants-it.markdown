@@ -1,0 +1,26 @@
+---
+layout: post
+title: "I wants IT!"
+date: 2003-10-09T12:24:36
+tags: []
+---
+
+The [Treo 600][1] came out this week. I want it even tho it has these draw
+backs:
+
+  * _Internet is not always on_ - I don't want silly dialup like support. I
+want always on broadband. With a static ip. I don't care if you have to use
+IPv6 addresses either.
+
+  * _While on the internet calls are diverted to voicemail_ - this is soooo
+90's :)
+
+  * _No built in Bluetooth_ - this is one device that could really use it.
+
+Also it looks like someone lost me $300 by not sending in a rebate from on
+time. :(
+
+   [1]: http://store.treocentral.com/smartphones_treo_600_sprint.php
+
+
+

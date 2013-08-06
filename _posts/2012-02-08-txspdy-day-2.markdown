@@ -1,0 +1,26 @@
+---
+layout: post
+title: "txspdy: Day 2"
+date: 2012-02-08T23:56:56
+tags: ["python", "txspdy"]
+---
+
+Fighting with C.   You hate loving it.  You love hating it.  But like water, it's good to know how to swim in it because 3/4 of the computing infrastructure is built on it.
+
+I needed to build the openssl-1.0.1-beta2, then make a mod of pyopenssl to add in the NPN feature.  Both of these went fine, and I got to a point that I had a clean compile.  Trying to run a unit test showed me that something was segfaulting.  Backing my changes to pyopenssl out I discovered it still happened without any of my new code.  So... does pyopenssl not work with the new beta? I doubted it.  Installed valgrind and run the test under that it showed somehow a shared library of crypto.so was getting loaded.  dpkg -S showed that was part of the openssl package.  Huh.
+
+Puzzled about this for a while, but ldd /usr/bin/python showed that it's was dynamically linked to openssl.  Ahh... so pyopenssl was built with a static link to the new openssl, but python was also dynamically linking in the old one, there's your segfaults.  The two versions had overwrote each others symbols (unsure why it wasn't all one or the other)
+
+Then I worked on building openssl to be shared and be in /usr/local/lib so that they override the system ssl.  I used stow as a way to put all the openssl files in their own place (/usr/local/stow/openssl-1.0.1-beta2) and then have stow symlink them to the right place.
+
+Then I get this:
+
+    python: /usr/local/lib/libcrypto.so.1.0.0: no version information available (required by python)
+    python: /usr/local/lib/libssl.so.1.0.0: no version information available (required by python)
+
+openssl out of the box doesn't put versioning info on it's .so's,  So I borrowed a [patch](http://anonscm.debian.org/viewvc/pkg-openssl/openssl/trunk/debian/patches/version-script.patch?revision=511&view=markup) from the debian package and applied it.  Now openssl is failing to build some things.
+
+And that's where I need to stop for the night. :(
+
+Here is a [patch for pyopenssl that might add NPN to it](https://gist.github.com/1777621), or it might cause your mouth to taste of metal for the rest of your life.
+
