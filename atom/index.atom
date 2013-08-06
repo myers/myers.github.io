@@ -8,7 +8,7 @@ layout: nil
   <link href="{{ site.url }}/"/>
   <link type="application/atom+xml" rel="self" href="{{ site.url }}/atom/index.atom"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}</id>
+  <id>{{ site.url }}/</id>
   <author>
     <name>Myers Carpenter</name>
     <email>myers@mask.org</email>
