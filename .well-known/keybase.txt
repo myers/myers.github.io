@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/myers
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://icepick.info
+  * I am myers (https://keybase.io/myers) on keybase.
+  * I have a public key with fingerprint 632B 5A28 9024 993E CE78  8891 2380
+  * E721 91FB 6F04
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "632b5a289024993ece7888912380e72191fb6f04",
+            "host": "keybase.io",
+            "key_id": "2380E72191FB6F04",
+            "uid": "18e0e6a8bbe54efe9e3526cdc1cd1c00",
+            "username": "myers"
+        },
+        "service": {
+            "hostname": "icepick.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396530185,
+    "expire_in": 157680000,
+    "prev":
+    "b139a9d2a87b19bcbc74d9dc58a3a347ec401fe74580b9e2502622be57d83e2c",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMSo3PBcceLvfBbG0wfeJTEE28ZwVisl5adUKllVK2Wngqm0zLz01KKC
+osy8EiUrJTNjoyTTRCMLSwMjE0tL49TkVHMLCwtLQyNjC4NUcyNDS8O0JLM0AxMl
+HaWM/GKQDqAxSYnFqXqZ+UAxICc+MwUoClLvClbv5mTmBlZfCpYwtEg1SDVLtEhK
+SjU1SU1LtUw1NjUyS05JNkxOMUw2MAApLE4tykvMTQWqzq1MLSpWqtVRAgqVZSan
+ghwMshcqDRQpyEzO1svMSwPZXlCUX5KfnJ8DlMkoKSmwAmksqSwAqSxPTYqHmhGf
+lJmXAvQ0UEMZ0PTM/DwlK0OgyuSSTJChhsaWZqbGBoYWpjpKqRUFmUWp8ZkgFabm
+ZhYGQACyJrUMaGQSUGWiZYpRooV5kqFlUnJSsrlJimVKsqlFonGisYl5arKJgWFa
+qrmJqYVBkmWqkamBkZmREdDb5ikWxqlGyUogXxXm5StZWQKdmZgONLI4Mz0vsaS0
+KFWptpNJhoWBkYmBjZUJFG0MXJwCsMj8vE2AYfmF9zb8xlcWS9u29KlmhnO9Nzit
+p3t+R/eKiyHrhJ4rJSWYKobx3J3ZtIRVIfTUrsZL+1dvOLf+nVq663KuCn5trdNx
+i7as++bHnnsgQejIyUKFhxNebda6uu3IifhWS9clYm05ZbZ2Cyf8niX1Y+PhpMr9
+5XdvsK1QZVR7WNukm1BxUfqVYs7laZ6veMqK1keLZNyRTb58+xnLZ8uv7a9EzRym
+37lUsjrSw2/JD3dZyRQWhod3fWdKmRiKPJimHZLlV3yvquqJ/PSwXcEbOL8deaJR
+H/uqZuGT8h8ntB4wTOjNilHYH8Cw7Wx3zjV9i70Xu3MMnM03BWiv237wlL3Lf52F
+/5QObj0rzMB8Jj7h+lynD+/v5E5+81Lu+G+u3FK3MwcKco+1K0uuf/ByerzQ6qtv
+Akonpgjpb9+9dhG7yd/8mYdeVqx9t0LkzYJ7m87vOXJ3h513j673yqssX3cocx4T
+MLQNzq26/ePw6p6Ne6LWHDM3ny67YuPrV8+DdBgnOMUeUz0ruWP+5H37JUsLnb2Y
+Wacaptkq7W//1KrvNeG9vdbM2yIXHngpG8tsUFgk7Nq/pXlTDmtL5NJ95Xue7lZZ
+pRyjfTPGWMRL67Hr43j254eCNyu1rNE+mLhous+nz0Udu2pOhTwOufXg3z0zT7lj
+MvvnpkhclDa5+ntjqNetzfzLctcI24uWS3E+fPTp2LyV6vr60+aZR2YDAA==
+=j9Am
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/myers
+
+==================================================================
