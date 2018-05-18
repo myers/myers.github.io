@@ -1,6 +1,6 @@
 name: Shutup and Code
 markdown: redcarpet
-pygments: true
+highlighter: rouge
 safe: true
 lsi: false
 include: [".well-known"]
