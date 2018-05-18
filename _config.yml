@@ -1,5 +1,5 @@
 name: Shutup and Code
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 safe: true
 lsi: false
