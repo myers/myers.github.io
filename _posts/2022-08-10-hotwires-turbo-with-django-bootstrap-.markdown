@@ -14,6 +14,7 @@ load another page.  You can fix this by adding the
 from django_bootstrap5.core import BOOTSTRAP5_DEFAULTS
 
 BOOTSTRAP5 = {
+    "javascript_in_head": False,
     "javascript_url": BOOTSTRAP5_DEFAULTS["javascript_url"].copy()
 }
 BOOTSTRAP5["javascript_url"]["data-turbolinks-eval"] = "false"
