@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+if ARGV.size == 0
+  puts "need title"
+  exit 1
+end
+now = Time.now
+
+title = ARGV[0]
+filename_title = title.downcase
+filename_title = filename_title.gsub(/[^a-z ]/, "")
+filename_title = filename_title.gsub(/ /, "-")
+
+filename = "_posts/#{now.strftime('%Y-%m-%d')}-#{filename_title}.markdown"
+File.write(filename,     <<~HEREDOC
+---
+layout: post
+title: "#{title}"
+date: #{now.strftime("%Y-%m-%dT%H:%M:%S%z")}
+tags: []
+---
+HEREDOC
+)
+
+puts filename
