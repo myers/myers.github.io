@@ -14,4 +14,3 @@ tags: []
 <p>Go for it. All it means is <a href="http://mnet.sf.net/">Mnet</a>, <a href="http://freenetproject.org">Freenet</a>, and <a href="http://www.freehaven.net/tor/">Tor</a> will get the critical mass they need to work. And then what? <a href="ftp://ftp.rfc-editor.org/in-notes/rfc3751.txt">The Omniscience Protocol</a> will be your only hope then Mr. <span class="caps">RIAA</span> and Mr. <span class="caps">MPAA</span>, and it&#8217;s an April Fool&#8217;s joke.</p>
 
 <p>Bring it.</p>
-

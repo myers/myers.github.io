@@ -10,4 +10,3 @@ tags: []
 <p>I see that he requires a <span class="caps">SOAP</span> library, so that means the a) python <span class="caps">SOAP</span> libraries have evolved enough to deal with the &#8220;not quite SOAP&#8221; used in UPnP, or b) He&#8217;s targeting some new UPnP spec.</p>
 
 <p>I have no UPnP <span class="caps">NAT</span> box now to test on.</p>
-

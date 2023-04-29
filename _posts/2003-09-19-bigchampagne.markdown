@@ -16,6 +16,3 @@ I don't think a company like this could exists if something like Overnet
 became more common place.
 
    [1]: http://www.wired.com/wired/archive/11.10/fileshare_pr.html
-
-
-

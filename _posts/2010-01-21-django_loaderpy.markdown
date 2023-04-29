@@ -2,10 +2,10 @@
 layout: post
 title: "django_loader.py"
 date: 2010-01-21T10:07:16
-tags: ["django", "python"]
+tags: [django, python]
 ---
 
-I got tired of putting 
+I got tired of putting
 
     import os, sys
     sys.path.append(<django project parent dir>)
@@ -14,12 +14,12 @@ I got tired of putting
 
 at the top of all my scripts that do command line things with my django models.  So I share with you 'django_loader.py'.  Note the use of traceback to figure out what file is importing 'django_loader.py'.
 
-    """ 
+    """
     Put this in your python path.  At the top of your script put 'import
     django_loader'.  This will start with the directory your file is in and
     search through it and it's parent directories until it finds a file named
     'settings.py'.  It will then add that directory and it's parent to your
-    sys.path, and set DJANGO_SETTINGS env var.  
+    sys.path, and set DJANGO_SETTINGS env var.
     """
 
     import os, sys, traceback
@@ -42,4 +42,3 @@ at the top of all my scripts that do command line things with my django models. 
 
     current_filepath = os.path.normpath(os.path.join(os.getcwd(), traceback.extract_stack(limit=2)[0][0]))
     load(current_filepath)
-

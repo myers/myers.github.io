@@ -18,6 +18,3 @@ Um, speaking of which I have deadline tomorrow, so back to the dungon...
    [1]: http://www.diepunyhumans.com/archives/006975.html
 
    [2]: http://shellbook.com/
-
-
-

@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Generating Great Graphs with Ruby on Rails"
 date: 2006-04-14T15:01:15
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><a href="http://www.canadaonrails.com/talks/show/11">Generating Great Graphs with Ruby on Rails</a></p>
@@ -23,4 +23,3 @@ tags: ["canada-on-rails"]
 <li><a href="http://rails.techno-weenie.com/">rails.techno-weenie.com</a></li>
 <li><em>gave a lot of cool looking graphs/graphic effects that people have done on different sites.</em></li>
 </ul>
-

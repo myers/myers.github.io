@@ -22,6 +22,3 @@ tags: []
     [12:13:32] Steve: hehe
     [12:13:46] icepick: I crown you the king of evil for the day
     [12:13:48] Steve: I don't even have a ps2
-    
-
-

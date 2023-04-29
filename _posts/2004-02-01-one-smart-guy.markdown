@@ -28,6 +28,3 @@ that bands songs), and another for tour info.
    [3]: http://monoloco.net
 
    [4]: http://musicbrainz.org
-
-
-

@@ -10,4 +10,3 @@ tags: []
 <p>I need to clean up a bit of spam on this site.  Seems like some spammers found my trac sites for some of the projects I had listed here and had a little fun.  I have two trac.db files that are 300mb full of spam.  </p>
 
 <p>Shouts out to Steven N. and Zooko. </p>
-

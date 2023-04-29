@@ -10,6 +10,3 @@ tags: []
 [Which Fantasy/SciFi Character Are You?][1]
 
    [1]: http://www.tk421.net/character/
-
-
-

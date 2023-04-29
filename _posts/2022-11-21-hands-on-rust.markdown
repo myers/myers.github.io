@@ -2,7 +2,7 @@
 layout: post
 title: "Hands On Rust"
 date: 2022-11-21T22:36:57-0500
-tags: []
+tags: [rust, video-games, wasm, bevy]
 ---
 
 I've been working thru [Hands On

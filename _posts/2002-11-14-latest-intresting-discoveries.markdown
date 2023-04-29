@@ -12,6 +12,3 @@ Oh and my arm is working fine now... just don't ask me to carry heavy stuff.
 
    [1]: http://www.livejournal.com/users/octal/
    [2]: http://yodelbank.com/
-
-
-

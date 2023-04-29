@@ -2,10 +2,10 @@
 layout: post
 title: "Canada on Rails: Amy Hoy - getting started with AJAX"
 date: 2006-04-13T21:31:06
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
-<p><a href="http://www.flickr.com/photos/51798472@N00/128155156/in/pool-canadaonrails/">Amy 
+<p><a href="http://www.flickr.com/photos/51798472@N00/128155156/in/pool-canadaonrails/">Amy
 Hoy</a></p>
 
 <p><em>Go read the <span class="caps">AJAX</span> chapter in the Rails book</em></p>
@@ -20,4 +20,3 @@ Hoy</a></p>
 <li><a href="https://addons.mozilla.org/addon.php?id=60">web developer extension</a></li>
 </ul></li>
 </ul>
-

@@ -30,7 +30,7 @@ def parseHotlineURL(url):
     """
     @returns: ( (hostname, port,), kws, )
     """
-    
+
     urlparse.uses_netloc.append('hotline')
     schema, host, path, query, fragment = urlparse.urlsplit(url)
     assert schema == 'hotline'
@@ -82,13 +82,13 @@ class HotlineClient(Protocol):
         self.cwd = cwd
 
         self.pathSeparator = '/'
-        
+
         self.loggedInDeferred = Deferred()
 
         self.taskCounter = 0
         self.buffer = StringIO.StringIO()
         self.tasks = {}
-        
+
     def chdir(self, path):
         if path is None or path == '.':
             return
@@ -98,7 +98,7 @@ class HotlineClient(Protocol):
             self.cwd = os.path.normpath(os.path.join(self.cwd, path))
         else:
             self.cwd = path
-        
+
     def connectionMade(self):
         self.sentLogin = False
         # tell the server we are a hotline client can deal with version 1 - 2
@@ -117,13 +117,13 @@ class HotlineClient(Protocol):
         assert len(transaction['objects']) == 1
         transaction['objects'][0][0] == 100
         return ServerError(transaction['objects'][0][3])
-    
+
     def handleTransaction(self, transaction):
         # it's a reply to a query we sent
         if transaction['id'] == 0 and transaction['type'] == 1:
             if self.tasks.has_key(transaction['taskNumber']):
                 if transaction['errorCode']:
-                    
+
                     self.tasks[transaction['taskNumber']].errback(self.extractErrorMsg(transaction))
                 else:
                     self.tasks[transaction['taskNumber']].callback(transaction)
@@ -142,14 +142,14 @@ class HotlineClient(Protocol):
             return
 
         self.buffer.write(data)
-        
+
         self.parseBuffer()
-    
-    def parseBuffer(self): 
-        """ 
-        Examine data in self.buffer and pull out and parse transactions. 
+
+    def parseBuffer(self):
+        """
+        Examine data in self.buffer and pull out and parse transactions.
         Leave incomplete data in self.buffer
-        
+
         @returns: number of transactions found
         """
         counter = 0
@@ -168,7 +168,7 @@ class HotlineClient(Protocol):
             data_block_len = decodeLong(self.buffer.read(4))
             # skip repeated len
             self.buffer.seek(4, 1)
-            
+
             # Check if we have the complete data block
             if len(self.buffer.getvalue()) - self.buffer.tell() < data_block_len:
                 log.debug("waiting for more data for this transaction: should be %s is %s" % (data_block_len, len(self.buffer.getvalue()) - self.buffer.tell()))
@@ -190,17 +190,17 @@ class HotlineClient(Protocol):
             new_buffer = StringIO.StringIO()
             new_buffer.write(self.buffer.read())
             self.buffer = new_buffer
-                
+
         # move to the end of the buffer
         self.buffer.seek(0, 2)
-        return counter 
-        
+        return counter
+
     def sendLogin(self):
         username = assembleObject(105, self.username)
         password = assembleObject(106, self.password)
         nickname = assembleObject(102, self.nickname)
         icon = assembleObject(104, self.icon)
-        
+
         log.debug("sending login")
         dd = self.startTransaction(107, (username, password, nickname, icon,))
         self.sentLogin = True
@@ -210,17 +210,17 @@ class HotlineClient(Protocol):
 
     def handleRawUserlist(self, transaction):
         log.debug("got userlist")
-        
+
     def handleRawDisconnected(self, transaction):
         assert len(transaction['objects']) == 1
         assert transaction['objects'][0][0] == 101
 
         log.debug("Disconnected: %r" % transaction['objects'][0][3])
-        
+
     def handleRawAgreement(self, transaction):
         log.debug('handleRawAgreement')
         assert len(transaction['objects']) == 1
-    
+
     def _createPathObject(self, path):
         """
         Build a path object
@@ -239,8 +239,8 @@ class HotlineClient(Protocol):
 
         # for the root directory we don't send any objects *weird*
         if len(dirs) == 0:
-            return ret 
-            
+            return ret
+
         data = StringIO.StringIO()
         data.write(encodeShort(len(dirs)))
         for ii in dirs:
@@ -248,8 +248,8 @@ class HotlineClient(Protocol):
             data.write(encodeChar(len(ii)))
             data.write(ii)
         ret.append(assembleObject(202, data.getvalue()))
-    
-        return ret 
+
+        return ret
 
     def listFolder(self, path=None):
         log.debug('path = %r' % path)
@@ -257,16 +257,16 @@ class HotlineClient(Protocol):
         if path is None or path == '.':
             path = self.cwd
         log.debug("listing %r" % path)
-        
+
         objects = self._createPathObject(path)
-        
+
         dd = self.startTransaction(200, objects)
         dd.addCallback(self.parseFilelist)
         return dd
-        
+
     def parseFilelist(self, transaction):
         ret = {}
-        
+
         for obj in transaction['objects']:
             info = {}
             if obj[0] != 200:
@@ -282,29 +282,29 @@ class HotlineClient(Protocol):
                 info['size'] = decodeLong(obj[3][8:12])
                 assert decodeLong(obj[3][12:16]) == 0
             assert decodeLong(obj[3][16:20]) == len(obj[3][20:])
-            
-            ret[obj[3][20:]] = info           
-        
+
+            ret[obj[3][20:]] = info
+
         return ret
-   
+
 
     def retrieveFile(self, path, protocol):
         """
         Retrieve a file from the given path
 
         The file is fed into the given Protocol instance.
-        
+
         @param path: path to file that you wish to receive.
         @param protocol: a L{Protocol} instance.
 
         @returns: L{Deferred}
         """
         log.msg("retrieveFile: %r" % path)
-        
+
         path, filename = os.path.split(path)
         objects = [assembleObject(201, filename)]
         objects.extend(self._createPathObject(path))
-        
+
         dd = self.startTransaction(202, objects)
         dd.addCallback(self._startFileXfer, protocol=protocol)
         return dd
@@ -313,7 +313,7 @@ class HotlineClient(Protocol):
     def _startFileXfer(self, transaction, protocol):
         xferID = None
         xfersize = None
-        
+
         assert transaction['type'] == 1, "This isn't a server response"
         for obj in transaction['objects']:
             if obj[0] == 107:
@@ -322,29 +322,29 @@ class HotlineClient(Protocol):
                 xfersize = decodeLong(obj[3])
         assert xferID is not None, "Didn't find xferID object: " + pprint.pformat(transaction)
         assert xfersize is not None, "Didn't find xfersize object"
-                
-                
+
+
         finishedDeferred = Deferred()
         cc = ClientCreator(reactor, HotlineDownload, xferID, xfersize, protocol, finishedDeferred)
         cc.connectTCP(self.transport.realAddress[0], 5501)
         return finishedDeferred
-                
-        
+
+
 class HotlineDownload(Protocol):
     def __init__(self, xferID, xfersize, protocol, finishedDeferred):
         self.xferID = xferID
         self.xfersize = xfersize
         self.protocol = protocol
         self.finishedDeferred = finishedDeferred
-                
+
         self.buffer = StringIO.StringIO()
         self.nextWatermark = 40
         self.watermarkHandler = self.parseHeader
 
         self.inData = False
         self.dataLen = 0
-        self.dataCounter = 0 
-        
+        self.dataCounter = 0
+
     def connectionMade(self):
         self.transport.write('HTXF' + encodeLong(self.xferID) + encodeLong(0) + encodeLong(0))
 
@@ -353,13 +353,13 @@ class HotlineDownload(Protocol):
             self.finishedDeferred.callback(None)
         else:
             self.finishedDeferred.callback(reason)
-        
+
     def dataReceived(self, data):
         if self.inData:
             # check to see if we have all the data
             if len(data) + self.dataCounter <= self.dataLen:
                 self.protocol.dataReceived(data)
-                return                
+                return
             else:
                 restOfDataLen = self.dataLen - self.dataCounter
                 self.protocol.dataReceived(data[:restOfDataLen])
@@ -369,13 +369,13 @@ class HotlineDownload(Protocol):
                 self.watermarkHandler = self.parseRscrBlock
                 self.nextWatermark = 16
                 self.inData = False
-                
+
         readpos = self.buffer.tell()
         self.buffer.seek(0, 2)
         self.buffer.write(data)
         writepos = self.buffer.tell()
         self.buffer.seek(readpos)
-        
+
         while 1:
             if writepos < self.nextWatermark:
                 break
@@ -387,13 +387,13 @@ class HotlineDownload(Protocol):
         assertEquals(self.buffer.read(4), 'FILP')
         assertEquals(self.buffer.read(2), '\x00\x01')
         self.buffer.read(2) #'\x00\x00'
-        self.buffer.read(4) #'\x00\x00\x00\x00' 
-        self.buffer.read(4) #'\x00\x00\x00\x00' 
-        self.buffer.read(4) #'\x00\x00\x00\x00' 
-        self.buffer.read(4) #'\x00\x00\x00\x03' 
+        self.buffer.read(4) #'\x00\x00\x00\x00'
+        self.buffer.read(4) #'\x00\x00\x00\x00'
+        self.buffer.read(4) #'\x00\x00\x00\x00'
+        self.buffer.read(4) #'\x00\x00\x00\x03'
         assertEquals(self.buffer.read(4), 'INFO')
-        self.buffer.read(4) #'\x00\x00\x00\x00' 
-        self.buffer.read(4) #'\x00\x00\x00\x00' 
+        self.buffer.read(4) #'\x00\x00\x00\x00'
+        self.buffer.read(4) #'\x00\x00\x00\x00'
         # infoblock + header of data block
         self.nextWatermark += decodeLong(self.buffer.read(4)) + (4 * 4)
 
@@ -403,7 +403,7 @@ class HotlineDownload(Protocol):
         assertEquals(self.buffer.read(4), 'AMAC')
         self.protocol.filetype = self.buffer.read(4)
         self.protocol.creator = self.buffer.read(4)
-        
+
         #read over longs that might be flags
         self.buffer.read(4 * 10)
         #creation date, format unknown
@@ -425,13 +425,13 @@ class HotlineDownload(Protocol):
 
         # put the rest of the buffer into the protocol
         self.protocol.dataReceived(self.buffer.read())
-        # this will never be reached, we just don't want the watermark handling 
+        # this will never be reached, we just don't want the watermark handling
         # code to be invoked.  dataLen + header of Rscr block
         self.nextWatermark += self.dataLen + 16
-        
+
     def parseRscrBlock(self):
         log.debug('self.parseRscrBlock')
-                
+
 def assertEquals(val1, val2):
     assert val1 == val2, "val1: %r vs val2: %r" % (val1, val2,)
 
@@ -441,7 +441,7 @@ def encodeShort(short):
 
 def encodeChar(data):
     return struct.pack('>b', data)
-    
+
 def decodeShort(data):
     assert len(data) == 2
     return struct.unpack('>h', data)[0]
@@ -449,11 +449,11 @@ def decodeShort(data):
 def encodeLong(long):
     binlong = struct.pack('>l', long)
     return binlong
-    
+
 def decodeLong(data):
     assert len(data) == 4
     return struct.unpack('>l', data)[0]
-    
+
 def encodeString(string):
     eodstring = ''
     for ii in range(len(string)):
@@ -464,10 +464,10 @@ def encodeString(string):
 def assembleObject(id, data):
     ret = StringIO.StringIO()
     ret.write(encodeShort(id))
-    
+
     if objectEncodings.has_key(id) and objectEncodings[id]:
         data = objectEncodings[id](data)
-    
+
     ret.write(encodeShort(len(data)))
     ret.write(data)
 
@@ -487,15 +487,15 @@ def assembleTransaction(objects, id, type, taskNumber, errorCode = 0):
 
     # dataBlockLen is 1 short representing the number of objects in the
     # data + len of data
-    dataBlockLen = len(encodeShort(len(objects))) + len(dataBlock) 
+    dataBlockLen = len(encodeShort(len(objects))) + len(dataBlock)
     ret.write(encodeLong(dataBlockLen))
     ret.write(encodeLong(dataBlockLen))
 
-    # data block 
-    # number of objects 
+    # data block
+    # number of objects
     ret.write(encodeShort(len(objects)))
     ret.write(dataBlock)
-    
+
     return ret.getvalue()
 
 SERVER_HELLO = 'TRTP\x00\x00\x00\x00'
@@ -604,5 +604,3 @@ transactionTypes = {
     410: 'PostThread',
     411: 'DeleteThread'
 }
-
-    

@@ -17,6 +17,3 @@ the file that clears the remap, but I'm pretty sure it works.
    [1]: /2004/03/14/caps_lock_to_ctrl.reg
 
    [2]: /2004/03/14/clear_remapings.reg
-
-
-

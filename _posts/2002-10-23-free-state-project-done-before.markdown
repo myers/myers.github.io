@@ -12,4 +12,3 @@ tags: []
 </blockquote>
 
 <p>Poking around on Google for a few minutes I couldn&#8217;t find anything about it&#8230; <a href="http://www.wired.com/wired/archive/1.04/eword.html?pg=8">Kibo</a> do you know the answer?</p>
-

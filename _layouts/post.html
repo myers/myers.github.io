@@ -3,30 +3,41 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<p class="meta">published: {{ page.date | date_to_string }} | tags: {{ page.tags | join: ', ' }}</p>
+<p class="meta">published: {{ page.date | date_to_string }} | tags:
+  {% for tag in page.tags %}
+    <a href="/tag/{{ tag }}">{{ tag }}</a>
+  {% endfor %}
+</p>
 
 {{ content }}
 
 <div id="page-navigation">
-	<div class="clear">&nbsp;</div>
-	<div class="left">
-		{% if page.previous.url %}
-		<a href="{{page.previous.url}}" title="Previous Post:
-		{{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-		{% endif %} 
-	</div>
+  <div class="clear">&nbsp;</div>
+  <div class="left">
+    {% if page.previous.url %}
+      <a href="{{page.previous.url}}" title="Previous Post:
+                		{{page.previous.title}}">&laquo; {{ page.previous.title }}</a>
+    {% endif %}
+  </div>
 
-	<div class="right">
-		{% if page.next.url %}
-		<a href="{{page.next.url}}" title="next Post:
-		{{page.next.title}}">{{page.next.title}} &raquo; </a>
-		{% endif %}
-	</div>
-	<div class="clear">&nbsp;</div>
+  <div class="right">
+    {% if page.next.url %}
+      <a href="{{page.next.url}}" title="next Post:
+                		{{page.next.title}}">{{ page.next.title }} &raquo;
+      </a>
+    {% endif %}
+  </div>
+  <div class="clear">&nbsp;</div>
 </div>
 
 <div class="comments">
-	<hr />
-	<div id="disqus_thread"></div><script type="text/javascript" src="https://disqus.com/forums/shutupandcode/embed.js"></script><noscript><a href="https://disqus.com/forums/shutupandcode/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  <hr/>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="https://disqus.com/forums/shutupandcode/embed.js"></script>
+  <noscript>
+    <a href="https://disqus.com/forums/shutupandcode/?url=ref">View the discussion thread.</a>
+  </noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by
+    <span class="logo-disqus">Disqus</span>
+  </a>
 </div>
-

@@ -2,7 +2,7 @@
 layout: post
 title: "Will my vote count for anything?"
 date: 2003-09-24T09:09:54
-tags: []
+tags: [politics]
 ---
 
 After reading this [interview with Bev Harris][1] about her research into
@@ -19,6 +19,3 @@ them, and they did now about the Diebold mess.
    [3]: http://www.albemarle.org/department.asp?section_id=1827&department=registrar
 
    [4]: http://www.sequoiavote.com/productguide.php?product=AVC%20Advantage&type=Introduction
-
-
-

@@ -2,7 +2,7 @@
 layout: post
 title: "RailsConf 2008: Saturday Eaily Morning"
 date: 2008-05-31T13:31:06
-tags: ["railsconf2008"]
+tags: [railsconf2008]
 ---
 
 <p>(mostly randy here again. I was putting up my first ec2 instance. :)</p>
@@ -61,4 +61,3 @@ tags: ["railsconf2008"]
 </ul></li>
 <li>rails 2.1 out today (a gem update at 10:14am didn&#8217;t do anything tho&#8230; it will be later&#8230; so not a Steve Jobs &#8220;and you can buy it right now&#8221;)</li>
 </ul>
-

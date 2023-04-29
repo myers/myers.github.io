@@ -2,12 +2,12 @@
 layout: post
 title: "PyMonitor"
 date: 2004-01-27T03:40:00
-tags: ["python"]
+tags: [python]
 ---
 
 Way cool:
 
-> [PyMonitor][1] module is used to add support for enable runtime monitoring of 
+> [PyMonitor][1] module is used to add support for enable runtime monitoring of
 > an Python application.
 >
 > After creating an instance of the MonitorServer and starting the thread it
@@ -23,6 +23,3 @@ some free time to play with this and [Mnet][3].
    [2]: https://zune.dyndns.org/PyMonitor/Monitor.jpg
 
    [3]: http://mnet.sf.net/
-
-
-

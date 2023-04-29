@@ -19,6 +19,3 @@ tags: []
 <li>Only 17 countries here (there&#8217;s what? 27 countries represented at Harrisonburg Public schools?).</li>
 <li>1 billion on the Internet. (North America 22%, Asia 35%, Europe 29%)</li>
 </ul></p>
-
-
-

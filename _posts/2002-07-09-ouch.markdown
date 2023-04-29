@@ -5,10 +5,7 @@ date: 2002-07-09T05:07:14
 tags: []
 ---
 
-Music artist get cheated even more than I thought. Check out [this article][1] by Janis Ian, recording artist from way back. Looks like the [Courtney Love][2] piece, but written better. 
+Music artist get cheated even more than I thought. Check out [this article][1] by Janis Ian, recording artist from way back. Looks like the [Courtney Love][2] piece, but written better.
 
    [1]: http://www.janisian.com/article-internet_debacle.html
    [2]: http://www.salon.com/tech/feature/2000/06/14/love/
-
-
-

@@ -10,6 +10,3 @@ Today [/.][1] had a [story][2] about certain colleges telling their students tha
    [1]: http://slashdot.org/
    [2]: http://yro.slashdot.org/article.pl?sid=02/09/15/233249&mode=nested&tid=146
    [3]: http://www.d.kth.se/~d95-mih/icq/
-
-
-

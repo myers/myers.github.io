@@ -2,7 +2,7 @@
 layout: post
 title: "RailsConf 2008: Friday Early Afternoon"
 date: 2008-05-30T18:59:49
-tags: ["railsconf2008"]
+tags: [railsconf2008]
 ---
 
 <h4><a href="http://en.oreilly.com/rails2008/public/schedule/detail/1960">Dialogue Concerning the Two Chief Modeling Systems</a></h4>
@@ -87,4 +87,3 @@ tags: ["railsconf2008"]
 </ul>
 
 <p><a href="http://freewebs.com/warbook">Slides</a></p>
-

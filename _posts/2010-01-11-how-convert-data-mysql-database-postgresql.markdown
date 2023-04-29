@@ -2,10 +2,10 @@
 layout: post
 title: "How to convert data in a MySQL database to Postgresql"
 date: 2010-01-11T19:32:14
-tags: ["django", "python"]
+tags: [django, python]
 ---
 
-To do this you need both mysql and postgresql running on a local computer. 
+To do this you need both mysql and postgresql running on a local computer.
 You probably want this to be a local workstation that you have superuser
 access to.  We are going to use features in mysql and postgres that makes
 the database daemon read and write to local files.
@@ -29,7 +29,7 @@ from the [Grand Comicbook Database](http://docs.comics.org/wiki/Main_Page)
     unzip pub_dec21_data.zip
     mysql -uroot gcd < pub_dec21_data.sql
 
-### create django project 
+### create django project
 
     django-admin.py startproject grandcomicdb
     cd grandcomicdb
@@ -39,7 +39,6 @@ from the [Grand Comicbook Database](http://docs.comics.org/wiki/Main_Page)
     # edit settings.py to set up connection to mysql
     ./manage.py inspectdb > gcd/models.py
     # edit gcd/models.py to make the fk quoted, and add relative_name's
-
 
 ### create mysql clean up script
 
@@ -56,7 +55,6 @@ from the [Grand Comicbook Database](http://docs.comics.org/wiki/Main_Page)
     open(sys.argv[1], 'w').write(ff)
     EOF
     chmod +x fix_mysql_tsv.py
-
 
 ### dump data to tab separated value files
 
@@ -89,5 +87,3 @@ from the [Grand Comicbook Database](http://docs.comics.org/wiki/Main_Page)
     COPY gcd_issue FROM '/tmp/gcd_dump/gcd_issue.txt';
     COPY gcd_story FROM '/tmp/gcd_dump/gcd_story.txt';
     COMMIT;
-
-

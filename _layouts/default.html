@@ -1,16 +1,6 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset=utf-8 />
-    <title>{{ site.name }}: {{ page.title }}</title>
-    <link rel="stylesheet" media="screen" type="text/css" href="/css/styles.css" />
-    <link rel="alternate" type="application/atom+xml" href="/atom/index.atom" title="Atom Feed" />
-    <link rel="alternate" type="application/rss+xml" href="/rss/index.xml" title="RSS Feed" />
-    <meta name="ICBM" content="38.4451065,-78.8804932" />
-    <meta name="DC.title" content="Shutup and Code" />
-    <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
-    <link rel="openid2.local_id" href="https://www.google.com/accounts/o8/id">
-</head>
+{% include head.html %}
 
 <body>
   <div id="banner">
@@ -22,7 +12,7 @@
 
       {{ content }}
 
-    <h6 class="copyright">Copyright (c) 2002-{{ site.time | date: '%Y' }}, Myers Carpenter</h6>  
+    <h6 class="copyright">Copyright (c) 2002-{{ site.time | date: '%Y' }}, Myers Carpenter</h6>
   </div></div>
 
   <div id="sidebar">
@@ -34,7 +24,7 @@
   <li><a href="https://twitter.com/myerscarpenter" rel="me">@myerscarpenter on Twitter</a></li>
   <li><a href="https://github.com/myers" rel="me">Github</a></li>
 </ul>
-          
+
 <!-- <h2>Twitter</h2>
 <div id="twitter-feed">Wait for the silly javascript to load up...</div>
 
@@ -65,7 +55,7 @@
       <ul>
         <li><a href="/gallery/">Pictures</a></li>
       </ul>
- -->      
+ -->
 <!--
       <h2>Calendar</h2>
       {{calendar}}
@@ -78,11 +68,11 @@
         </ul>
         <a href="/archive/">Full Archive</a>
 <!--
-      
+
       <h2>What? Me Valid?</h2>
       <ul>
         <li><a href="http://validator.w3.org/check/referer">
-            <img alt="Valid XHTML 1.0" src="/images/xhtml10.png" 
+            <img alt="Valid XHTML 1.0" src="/images/xhtml10.png"
                 width="80" height="15" /></a></li>
         <li><a href="http://jigsaw.w3.org/css-validator/check/referer">
             <img alt="Valid CSS" src="/images/css.png"

@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Engines: Team Development with Rails"
 date: 2006-04-14T14:34:51
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><a href="http://www.canadaonrails.com/talks/show/10">James Adam on Engines: Team Development with Rails</a></p>
@@ -25,4 +25,3 @@ tags: ["canada-on-rails"]
 <ul>
 <li>wants happy coexistence with Rails Core</li>
 </ul>
-

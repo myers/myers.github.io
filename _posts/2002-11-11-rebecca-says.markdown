@@ -10,6 +10,3 @@ tags: []
 Funny [Becca][1] :)
 
    [1]: http://www.deadjournal.com/users/yuiwert/
-
-
-

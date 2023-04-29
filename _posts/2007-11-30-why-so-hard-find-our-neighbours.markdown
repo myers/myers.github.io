@@ -6,4 +6,3 @@ tags: []
 ---
 
 <p>In <a href="http://www.damninteresting.com/?p=219">Space Radio: More Static, Less Talk</a> we learn how hard it would be to detect alien signals.  Also about an formula to figure out how many intelligent lifeforms their might be in our galaxy.</p>
-

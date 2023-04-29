@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Tooling Rails"
 date: 2006-04-13T17:12:17
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><a href="http://www.canadaonrails.com/talks/show/3">Tooling Rails</a></p>
@@ -20,4 +20,3 @@ tags: ["canada-on-rails"]
 <li><em>Then he gave a demo</em></li>
 <li>Lot&#8217;s of interest from the commercial world, just don&#8217;t get it about open source (RadRails is <span class="caps">CPL</span>).</li>
 </ul>
-

@@ -5,7 +5,7 @@ date: 2003-08-25T18:59:41
 tags: []
 ---
 
-Before I headed off to NYC on Tuesday Laura and I got hair cuts. Mine was pretty drastic. 
+Before I headed off to NYC on Tuesday Laura and I got hair cuts. Mine was pretty drastic.
 
 ![Before, with long hair][1]
 
@@ -13,6 +13,3 @@ Before I headed off to NYC on Tuesday Laura and I got hair cuts. Mine was pretty
 
    [1]: /2003/08/25/before.jpg
    [2]: /2003/08/25/after.jpg
-
-
-

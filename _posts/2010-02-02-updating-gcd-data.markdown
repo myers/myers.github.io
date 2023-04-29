@@ -2,7 +2,7 @@
 layout: post
 title: "Updating GCD Data"
 date: 2010-02-02T23:40:16
-tags: ["django", "python"]
+tags: [django, python]
 ---
 
 So you have [loaded the Grand Comicbook Database into a local postgresql instance][2] and wrote some code that makes use of the data... They just did a [new data dump][1]... Now how do you update your copy of the data?
@@ -59,16 +59,14 @@ Now copy this python script:
 
     for ii in constraints:
         sql_logger("""
-    ALTER TABLE ONLY %(table_name)s 
-      ADD CONSTRAINT %(constraint_name)s 
+    ALTER TABLE ONLY %(table_name)s
+      ADD CONSTRAINT %(constraint_name)s
         FOREIGN KEY (%(k_column_name)s) REFERENCES %(c_table_name)s(%(c_column_name)s) DEFERRABLE INITIALLY DEFERRED;
     """ % ii)
 
-    sql_logger('commit')  
+    sql_logger('commit')
 
-
-You'll have to run this as the postgres user just as before.  It records the FOREIGN KEY CONSTRAINT, drops them, deletes the old data, copies in the new, and recreates the constraints, all in one transaction!  Eat that MySQL.  
+You'll have to run this as the postgres user just as before.  It records the FOREIGN KEY CONSTRAINT, drops them, deletes the old data, copies in the new, and recreates the constraints, all in one transaction!  Eat that MySQL.
 
   [1]: http://dev.comics.org/data/2010-01-30/
   [2]: /2010/01/11/how-convert-data-mysql-database-postgresql/
-

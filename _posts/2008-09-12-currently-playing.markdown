@@ -2,7 +2,7 @@
 layout: post
 title: "Currently Playing"
 date: 2008-09-12T17:34:39
-tags: ["video-games"]
+tags: [video-games]
 ---
 
 <p>Like you care&#8230;</p>
@@ -33,4 +33,3 @@ tags: ["video-games"]
 <ul>
 <li>Mario Galaxy </li>
 </ul>
-

@@ -2,7 +2,7 @@
 layout: post
 title: "The Webmasters Daemons"
 date: 2007-11-30T08:56:42
-tags: ["ideas"]
+tags: [ideas]
 ---
 
 <p>I had this crazy idea back at the beginning of 2001. I wrote it down in a text file one morning and forgot most of it.</p>
@@ -32,4 +32,3 @@ tags: ["ideas"]
 <p>one of the users packets go to /. where the fill buckets at ten and a time with jetsprays, and soon as they have the info all the users start coming towards our two daemons.</p>
 
 <p>eventually the webmaster is awoken by the rack lights which are going crazy &#8230; sees his bandwidth going thru the roof&#8230;. he makes the users stop some how.</p>
-

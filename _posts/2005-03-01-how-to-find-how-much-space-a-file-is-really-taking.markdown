@@ -10,4 +10,3 @@ tags: []
 <p>After searching for a way to find out if a file makes use of the sparse file trick I discovered that it&#8217;s quite possible that <strong>any</strong> file that has nulls in it might be sparse.  Oh great&#8230;</p>
 
 <p><code>du</code> turned out to actually show how much space on disk the file was taking.  I couldn&#8217;t find anything that linked <code>du</code> to sparse files so&#8230; here it is.</p>
-

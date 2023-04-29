@@ -11,4 +11,3 @@ tags: []
 <li>$2.9 Billion &#8212; Amount spent on lingerie in France last year, more than any other country in Europe.</li>
 <li>87% &#8212; Portion of the French population that believes lingerie is an important part of life.</li>
 </ul>
-

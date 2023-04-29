@@ -2,13 +2,13 @@
 layout: post
 title: "LISA: Building a Business with a Long-term View of the Globalization Services Industry"
 date: 2006-06-27T10:00:00
-tags: ["lisa2006nyc"]
+tags: [lisa2006nyc]
 ---
 
 <p>April Singer, 20-year localization veteran from <span class="caps">IBM</span>. How to convince your org. to globalize.</p>
 
 <ul>
-<li>Nokia <span class="caps">CTO</span> &#8211; world will be defined not by geography but by the 'Net. * Non-G8 (had some other term I didn&#8217;t catch) countries will double the % of their <span class="caps">GDP</span> and become competitors and consumers by (some date). </li>
+<li>Nokia <span class="caps">CTO</span> &#8211; world will be defined not by geography but by the 'Net. *Non-G8 (had some other term I didn&#8217;t catch) countries will double the % of their <span class="caps">GDP</span> and become competitors and consumers by (some date). </li>
 <li>McKinsey Quarterly (look this up) 8 out of 10 top trends revolved around globalization. </li>
 <li><span class="caps">IBM</span> <span class="caps">CEO</span> to London Fin Times: not a US company doing biz in China, but a borderless company who looks to locals as a local company.</li>
 <li>(I&#8217;m wishing I packed a sweater about now)</li>
@@ -23,8 +23,7 @@ tags: ["lisa2006nyc"]
 <li>&#8220;We can&#8217;t possibly meet this demand [for globalization services]&#8221;. (If that is the case why are their only 70 people in this room? I don&#8217;t doubt this is important, but perhaps this conf. didn&#8217;t fit in the schedules of the masses working on this at breakneck speed. I know I felt that I should be back in H&#8217;burg working on our .de site).</li>
 <li>(ended with a 15 min QA)</li>
 <li>(It&#8217;s so cold in this room that my breath is fogging up my glasses)</li>
-<li>One Q: if you were in the $500M space, what would you do: * What do you do best? pick your niche, be the best in your space * Work with local, knowledgeable resources.</li>
+<li>One Q: if you were in the $500M space, what would you do:* What do you do best? pick your niche, be the best in your space * Work with local, knowledgeable resources.</li>
 <li>(how was our call center contract in <span class="caps">EMEA</span> picked?)</li>
 <li>Q: One of your goals was a rapidly deployable site, what time frame are we talking about. A: 2 weeks for a site like one we already have.</li>
 </ul>
-

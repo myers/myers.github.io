@@ -16,7 +16,7 @@ tags: []
 > to the Internet, and encouraging immigration. But in the last three years, the
 > government's attention and resources have shifted to older sectors of the
 > economy, with tariff protection and subsidies to extractive industries.
-> 
+>
 > Meanwhile, Washington has stunned scientists across the world with its
 > disregard for consensus scientific views when those views conflict with the
 > interests of favored sectors (as has been the case with the issue of global
@@ -27,6 +27,3 @@ tags: []
 > here."
 
    [1]: http://www.washingtonmonthly.com/features/2004/0401.florida.html
-
-
-

@@ -12,4 +12,3 @@ tags: []
 <p>Kevin had given the <a href="http://www.applefritter.com/node/view/3686">keynote</a> for the day, and someone asked him if anyone had asked him to sign anything unusual.  Some girl had asked for him to sign her bra.  During<br />the <a href="http://www.applefritter.com/node/view/3691">Woz</a> keynotes] Geo and I got separated from Jason, who went down and tried his hand at lock picking (poker, lock picking&#8230;. I think he&#8217;srounding up his abilities to be a bad influence before becoming a father).  Riding back up on the elevator the woman in question was on<br />board, and talking to friend with her, she said &#8220;Kevin signed my bra, do you want to see?&#8221; then flashing her bra to everyone on the elevator.</p>
 
 <p>Remind me not to lose Jason next time.  He finds interesting things.</p>
-

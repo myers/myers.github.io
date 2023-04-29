@@ -12,4 +12,3 @@ tags: []
 <p>My rental car to get from the 'burg to <span class="caps">IAD</span> was an upgrade.  Asked for compact, got the luxury (2006 Buick something-or-other).  Very nice ride.</p>
 
 <p>Next stop is Phoenix (!!), going to see if I can get Collaboa up and running replacing the svn swig wrapper with some Ruby DL code.</p>
-

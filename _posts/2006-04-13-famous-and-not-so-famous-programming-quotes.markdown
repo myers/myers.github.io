@@ -6,4 +6,3 @@ tags: []
 ---
 
 <p><a href="http://www.approximity.com/public/quotes.html">Famous and not so famous programming quotes</a></p>
-

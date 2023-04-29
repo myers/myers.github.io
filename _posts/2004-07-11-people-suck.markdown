@@ -12,4 +12,3 @@ tags: []
 <p>Also, I really wish I had a zeroconf/ichat app to set up an ad-hoc conf room.  Started on it yesterday, but the <a href="http://twistedmatrix.com/">Twisted</a> api for both didn&#8217;t make sense when I was doing it.</p>
 
 <p>No more ethereal people, use your blogging tools! :P</p>
-

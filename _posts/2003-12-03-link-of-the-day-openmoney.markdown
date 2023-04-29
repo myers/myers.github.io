@@ -23,6 +23,3 @@ I just keep eyeing the Chaum patent expiration in 2005, and hope I have time
 to write some good opensource software around it.
 
    [1]: http://www.openmoney.org/top/omanifesto.html
-
-
-

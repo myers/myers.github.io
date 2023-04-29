@@ -10,4 +10,3 @@ tags: []
 <blockquote>
 <p>The <span class="caps">FCC</span> says that we have more media choices than ever before. But only a few corporations decide what we can choose. That is not choice. That&#8217;s like a dictator deciding what candidates are allowed to stand for parliamentary elections, and then claiming that the people choose their leaders.</p>
 </blockquote>
-

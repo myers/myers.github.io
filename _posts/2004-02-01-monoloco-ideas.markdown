@@ -29,6 +29,3 @@ piggyback your IM client.
    [2]: http://iron.wootest.net/aaron_swartz.php
 
    [3]: http://musicbrainz.org
-
-
-

@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Dave Astels"
 date: 2006-04-13T18:19:41
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><a href="http://canadaonrails.com/talks/show/4">Dave Astels on Behaviour Driven Development.. the step after TDD</a></p>
@@ -25,7 +25,7 @@ tags: ["canada-on-rails"]
 </ul>
 (state with a big red x thru it)
 <ul>
-<li>Stubs are not Mocks (_I&#8217;m currently reading an article about this: <a href="http://www.martinfowler.com/articles/mocksArentStubs.html">Martin Fowler: Mocks Aren&#8217;t Stubs</a> _)</li>
+<li>Stubs are not Mocks (_I&#8217;m currently reading an article about this: <a href="http://www.martinfowler.com/articles/mocksArentStubs.html">Martin Fowler: Mocks Aren&#8217;t Stubs</a>_)</li>
 </ul>
 
 <h4>Act II</h4>
@@ -55,4 +55,3 @@ tags: ["canada-on-rails"]
 <ul>
 <li>one more thing: shows up some code he hacked on the plane</li>
 </ul>
-

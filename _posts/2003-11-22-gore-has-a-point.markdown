@@ -21,6 +21,3 @@ I love this quote:
    [1]: http://www.reagan.com/
 
    [2]: http://www.knoxnews.com/kns/state/article/0,1406,KNS_348_2421025,00.html
-
-
-

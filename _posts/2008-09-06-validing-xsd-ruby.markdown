@@ -16,6 +16,3 @@ tags: []
           schema = XML::Schema.document(schema_doc)
           assert document.validate(schema), "the xml isn't valid.  look above for error."
         end
-    
-
-

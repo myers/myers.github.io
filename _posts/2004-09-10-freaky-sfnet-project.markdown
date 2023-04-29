@@ -12,4 +12,3 @@ tags: []
 </blockquote>
 
 <p>Information management for the 2nd amendment aficionado.  Maybe we need a new Tove topic:  &#8220;Other/Gun Nut&#8221;.</p>
-

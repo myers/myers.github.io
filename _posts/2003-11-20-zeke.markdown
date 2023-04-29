@@ -2,15 +2,11 @@
 layout: post
 title: "Zeke"
 date: 2003-11-20T06:17:09
-tags: ["photoblog"]
+tags: [photoblog]
 ---
 
-![Zeke][1]  
+![Zeke][1]
 
-
-Zeke 
+Zeke
 
    [1]: /2003/11/20/5123483138_0.jpg
-
-
-

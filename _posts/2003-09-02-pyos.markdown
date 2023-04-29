@@ -2,16 +2,13 @@
 layout: post
 title: "PyOS?"
 date: 2003-09-02T07:15:01
-tags: ["python"]
+tags: [python]
 ---
 
-When I was visiting aritmage and [itamar][1] in NYC, I put forth the drunken idea of a OS written in Python. Now some silly person is writing [Cleese][2] an OS in python. 
+When I was visiting aritmage and [itamar][1] in NYC, I put forth the drunken idea of a OS written in Python. Now some silly person is writing [Cleese][2] an OS in python.
 
-I think a neat thing to do with this is have a [capabilities][3] based system to handle OS rights. In this system, a webserver wouldn't be root to bind to a port < 1024, but would get passed a socketobj that was bound to 80 at startup. Also would be given directoryobj for it's docroot. It would be allowed to create new fileobjs/dirobj from that dirobj. Also the docroot dirobj would be missing an entry for ".." 
+I think a neat thing to do with this is have a [capabilities][3] based system to handle OS rights. In this system, a webserver wouldn't be root to bind to a port < 1024, but would get passed a socketobj that was bound to 80 at startup. Also would be given directoryobj for it's docroot. It would be allowed to create new fileobjs/dirobj from that dirobj. Also the docroot dirobj would be missing an entry for ".."
 
    [1]: http://itamarst.org/blog/
    [2]: http://www.jtauber.com/cleese
    [3]: http://www.erights.org/elib/capability/index.html
-
-
-

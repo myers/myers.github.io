@@ -6,7 +6,7 @@ tags: [machine-learning]
 ---
 
 In 2012 I spent a lot of my rare free time working thru both [Sebastian Thrun](https://twitter.com/SebastianThrun) and [Peter Norvig](https://github.com/norvig)'s
-Intro to Artificial Intelligence (which I can't find anymore) and [Andrew Ng](https://twitter.com/AndrewYNg)'s Machine Learning course.  Andrew's was the better of the two.  
+Intro to Artificial Intelligence (which I can't find anymore) and [Andrew Ng](https://twitter.com/AndrewYNg)'s Machine Learning course.  Andrew's was the better of the two.
 
 One thing that blew me away was how he used k-means clustering on our homework submissions to discover where there were a large number of students that had a common misconception, and make a clarification video.
 

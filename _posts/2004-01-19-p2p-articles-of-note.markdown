@@ -37,6 +37,3 @@ CP2PC interface to giFT.
    [8]: http://www.giftproject.org/
 
    [9]: http://xmlrpc-c.sourceforge.net/
-
-
-

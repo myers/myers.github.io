@@ -6,4 +6,3 @@ tags: []
 ---
 
 I use Django and Postgres at home, because I use Rails and MySQL all day at work.  Working in totally different solutions to the same problem keeps you fresh.
-

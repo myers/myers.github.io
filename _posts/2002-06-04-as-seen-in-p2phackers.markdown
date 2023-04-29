@@ -44,4 +44,3 @@ tags: []
 <p>[tvoj] shite h4xx0R1ng iz fuct</p>
 
 <p>[arma] perhaps you should read a book? take a walk?<br /></blockquote></p>
-

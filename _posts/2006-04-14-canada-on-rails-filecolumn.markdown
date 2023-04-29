@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: FileColumn"
 date: 2006-04-14T19:18:10
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><a href="http://www.canadaonrails.com/talks/show/14">Sebastian Kanthak on Plugging in with FileColumn</a></p>
@@ -15,4 +15,3 @@ tags: ["canada-on-rails"]
 <li>FileColumn does this</li>
 <li>can be expanded for more than imagesbl</li>
 </ul>
-

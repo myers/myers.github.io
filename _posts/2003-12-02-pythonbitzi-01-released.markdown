@@ -2,7 +2,7 @@
 layout: post
 title: "python-bitzi 0.1 Released"
 date: 2003-12-02T01:08:56
-tags: ["python"]
+tags: [python]
 ---
 
 I've put out a python wrapper around the bitzi library. It's good at
@@ -28,8 +28,4 @@ An example of it's usage
      'tag.image.width': '612',
      'tag.uuhash.uuhash': 'klaiKcvdxJb+gfmSlMz5ZWPf//8'}
 
-
    [1]: /projects/python-bitzi/
-
-
-

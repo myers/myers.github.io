@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Internationalizing Rails"
 date: 2006-04-14T18:18:51
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><a href="http://www.canadaonrails.com/talks/show/13">Jeremy Voorhis on Internationalizing Rails</a></p>
@@ -17,4 +17,3 @@ tags: ["canada-on-rails"]
 </ul>
 
 <p><a href="http://www.jvoorhis.com/">Jeremy&#8217;s Blog</a></p>
-

@@ -6,4 +6,3 @@ tags: []
 ---
 
 <p><a href="http://freekaneko.com/en/problem.html">What&#8217;s wrong with the arrest of Isamu Kaneko, author of Winny?</a>  I can see the bumper stickers now.</p>
-

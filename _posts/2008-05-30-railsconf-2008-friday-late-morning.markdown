@@ -2,7 +2,7 @@
 layout: post
 title: "RailsConf 2008: Friday Late Morning"
 date: 2008-05-30T15:34:00
-tags: ["railsconf2008"]
+tags: [railsconf2008]
 ---
 
 <h4><a href="http://en.oreilly.com/rails2008/public/schedule/detail/2495">Entrepreneurs On Rails &#8211; Dan Benjamin</a></h4>
@@ -97,4 +97,3 @@ tags: ["railsconf2008"]
 <li>F5 Load Balancers</li>
 <li>switched to erubis in web tier</li>
 </ul>
-

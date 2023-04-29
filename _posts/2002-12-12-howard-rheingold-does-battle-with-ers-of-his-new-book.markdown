@@ -5,9 +5,6 @@ date: 2002-12-12T09:23:59
 tags: []
 ---
 
-[Fun reading][1] in a /. story about "Smart Mobs". 
+[Fun reading][1] in a /. story about "Smart Mobs".
 
    [1]: http://books.slashdot.org/~Howard%20Rheingold
-
-
-

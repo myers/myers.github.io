@@ -2,7 +2,7 @@
 layout: post
 title: "txspdy: Day 2"
 date: 2012-02-08T23:56:56
-tags: ["python", "txspdy"]
+tags: [python, txspdy]
 ---
 
 Fighting with C.   You hate loving it.  You love hating it.  But like water, it's good to know how to swim in it because 3/4 of the computing infrastructure is built on it.
@@ -23,4 +23,3 @@ openssl out of the box doesn't put versioning info on it's .so's,  So I borrowed
 And that's where I need to stop for the night. :(
 
 Here is a [patch for pyopenssl that might add NPN to it](https://gist.github.com/1777621), or it might cause your mouth to taste of metal for the rest of your life.
-

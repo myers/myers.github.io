@@ -2,12 +2,9 @@
 layout: post
 title: "pyid3 0.5.5 released"
 date: 2004-04-29T18:55:25
-tags: ["python"]
+tags: [python]
 ---
 
 I just uploaded [pyid3 0.5.5][1]. All I did for this release is fixed the bug that I put in 0.5.4. Unit tests are only good if you run them I learned.
 
    [1]: /projects/pyid3/
-
-
-

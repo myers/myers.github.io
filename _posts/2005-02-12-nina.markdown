@@ -2,7 +2,7 @@
 layout: post
 title: "Nina"
 date: 2005-02-12T15:26:33
-tags: ["photoblog"]
+tags: [photoblog]
 ---
 
 ![Nina][1]
@@ -10,6 +10,3 @@ tags: ["photoblog"]
 Nina
 
    [1]: /2005/02/12/28034954114_0.jpg
-
-
-

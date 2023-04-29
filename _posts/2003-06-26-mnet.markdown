@@ -5,13 +5,10 @@ date: 2003-06-26T19:59:48
 tags: []
 ---
 
-I really, really want to be hacking on [Mnet][1], esp. following certain events that have followed in the news. Jim McCoy and Ash (I haven't even read this link yet) have posted "why mnet has stalled" but it comes down to a key reason: Zooko and icepick are busy. Maybe even simpler than that: zooko is busy. 
+I really, really want to be hacking on [Mnet][1], esp. following certain events that have followed in the news. Jim McCoy and Ash (I haven't even read this link yet) have posted "why mnet has stalled" but it comes down to a key reason: Zooko and icepick are busy. Maybe even simpler than that: zooko is busy.
 
-If you want to see this move forward, write code. 
+If you want to see this move forward, write code.
 
-(this is only tried rantings) 
+(this is only tried rantings)
 
    [1]: http://mnet.sf.net/
-
-
-

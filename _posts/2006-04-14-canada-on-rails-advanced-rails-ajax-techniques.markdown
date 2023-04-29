@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Advanced Rails AJAX techniques"
 date: 2006-04-14T12:55:22
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><a href="http://www.canadaonrails.com/talks/show/9">Thomas Fuchs on Advanced Rails <span class="caps">AJAX</span> techniques</a></p>
@@ -19,4 +19,3 @@ tags: ["canada-on-rails"]
 <li><em>Showed demo of <span class="caps">AJAX</span> app he&#8217;s working on <a href="http://www.fluxiom.com/">Fluxiom</a> which is something like a web based, multiuser iPhoto.  After showing the video on the site above intrested in the room went thru the roof and people were hanging on his every word.</em></li>
 <li>_via Campfire: <a href="http://webkit.opendarwin.org/blog/?p=41_">Introducing the Web Inspector</a></li>
 </ul>
-

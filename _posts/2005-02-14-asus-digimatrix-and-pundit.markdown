@@ -12,4 +12,3 @@ tags: []
 <p><a href="http://www.asus.com/products/desktop/digimatrix/overview.htm"><span class="caps">ASUS</span> DigiMatrix</a>.  Built in everything.  $100 more.</p>
 
 <p>The perplexing thing to me is both have digital audio out (S/<span class="caps">PDIF</span> also know as TosLink), but they are on the front of the unit.  If I where spending tons of $$ for a media room I would want a <span class="caps">DVI</span> projector and digital audio.  Seems having the S/<span class="caps">PDIF</span> out on the back of both units would make a lot more sense.</p>
-

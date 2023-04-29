@@ -11,6 +11,3 @@ people posting baby names didn't know much about computers and couldn't fend
 off the spam. That would be really sick if so.
 
    [1]: /2003/06/19/baby-names/
-
-
-

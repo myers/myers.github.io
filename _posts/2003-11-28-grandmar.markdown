@@ -2,15 +2,11 @@
 layout: post
 title: "Grandmar"
 date: 2003-11-28T06:02:58
-tags: ["photoblog"]
+tags: [photoblog]
 ---
 
-![Grandmar][1]  
+![Grandmar][1]
 
-
-Grandmar 
+Grandmar
 
    [1]: /2003/11/28/5406967938_0.jpg
-
-
-

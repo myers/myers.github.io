@@ -2,7 +2,7 @@
 layout: post
 title: "RailsConf 2008: Friday Night Keynote"
 date: 2008-05-31T03:51:15
-tags: ["railsconf2008"]
+tags: [railsconf2008]
 ---
 
 <h4><span class="caps">DHH</span> keynote</h4>
@@ -52,4 +52,3 @@ tags: ["railsconf2008"]
 <li>4 day work week means more focus</li>
 <li>summary: this surplus is not going to last forever don&#8217;t blow it all on hookers and fur coats</li>
 </ul>
-

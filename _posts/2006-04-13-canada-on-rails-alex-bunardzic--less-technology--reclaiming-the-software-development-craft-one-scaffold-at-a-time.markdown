@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Alex Bunardzic - Less Technology -- Reclaiming the Software Development Craft, One Scaffold at a Time"
 date: 2006-04-13T22:12:48
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p><em>just starting out&#8230;. title sounds interesting</em></p>
@@ -24,4 +24,3 @@ tags: ["canada-on-rails"]
 <p><em>Update: I didn&#8217;t get the sense that anyone liked this talk much</em></p>
 
 <p>slides at his site <a href="http://www.jooto.com/">Alex Bunardzic</a></p>
-

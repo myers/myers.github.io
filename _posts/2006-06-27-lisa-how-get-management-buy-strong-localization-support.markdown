@@ -2,7 +2,7 @@
 layout: post
 title: "LISA: How to get Management Buy-in for Strong Localization Support"
 date: 2006-06-27T10:32:00
-tags: ["lisa2006nyc"]
+tags: [lisa2006nyc]
 ---
 
 <p>Heike Caldwell, Localization Manager, Rockwell Automation. How to get Management Buy-in for Strong Localization Support.</p>
@@ -35,4 +35,3 @@ tags: ["lisa2006nyc"]
 </ul>
 
 <p>(oh look, some guy in jeans. at this point I&#8217;d rather have a parka).</p>
-

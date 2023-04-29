@@ -5,23 +5,20 @@ date: 2002-09-10T20:08:23
 tags: []
 ---
 
-Today is my birthday. Nope, I'm not kidding, it really is. I turn 26, which feels, old. But it's been a pretty good year. 
+Today is my birthday. Nope, I'm not kidding, it really is. I turn 26, which feels, old. But it's been a pretty good year.
 
-One year ago today I was awoken by the phone. It was my father-in-law, and my wife answered the phone. Intrested in what he was calling about at 11:30 in the morning (neither my wife or I had started our jobs so we were sound asleep) I listened in to the conversation. After much confusion ("What do you mean, 'What's going on.' Haven't you been watching it?" "Watching what?") I ended up setting up this scarry [media overstimulator][1] (that link is the top google hit for my name, btw). 
+One year ago today I was awoken by the phone. It was my father-in-law, and my wife answered the phone. Intrested in what he was calling about at 11:30 in the morning (neither my wife or I had started our jobs so we were sound asleep) I listened in to the conversation. After much confusion ("What do you mean, 'What's going on.' Haven't you been watching it?" "Watching what?") I ended up setting up this scarry [media overstimulator][1] (that link is the top google hit for my name, btw).
 
-The warroom idea was great until the BBC and Canadian new feeds were cut off. Then it got boring. American news sucks. I want DirecTV to have a "world news junkies" package that has BBC, [Al Jezzera][2] (which is reportedly adding a english feed soon), a few channels showing all the nightly news programs from all over the world with english subtitles. I want it all... 
+The warroom idea was great until the BBC and Canadian new feeds were cut off. Then it got boring. American news sucks. I want DirecTV to have a "world news junkies" package that has BBC, [Al Jezzera][2] (which is reportedly adding a english feed soon), a few channels showing all the nightly news programs from all over the world with english subtitles. I want it all...
 
-In the following days mirrored the gpg source code and anything else I could think might soon become contraband on my hard drive. Things fortunately didn't get that bad. 
+In the following days mirrored the gpg source code and anything else I could think might soon become contraband on my hard drive. Things fortunately didn't get that bad.
 
-As part of reflecting on what I could do to make the world a safer place for the values that I believed in, and what my country was built on, I joined in the development of Mojo Nation, which became [Mnet][3]. I feel I've added a lot to the project with the GUI, and now trying to make the code more accessable to all who would like to add to it. Now if we can get micropayments back in. 
+As part of reflecting on what I could do to make the world a safer place for the values that I believed in, and what my country was built on, I joined in the development of Mojo Nation, which became [Mnet][3]. I feel I've added a lot to the project with the GUI, and now trying to make the code more accessable to all who would like to add to it. Now if we can get micropayments back in.
 
-One of the things I would like to do better is money. Money has not been good to me this year, most likely because I haven't been good to it. I'm not talking making megabucks, but not going slowly towards bankruptcy would be nice. 
+One of the things I would like to do better is money. Money has not been good to me this year, most likely because I haven't been good to it. I'm not talking making megabucks, but not going slowly towards bankruptcy would be nice.
 
-25 was a good year. 26 will be even better. 
+25 was a good year. 26 will be even better.
 
    [1]: http://wmf.editthispage.com/discuss/msgReader$5687?mode=day
    [2]: http://www.aljazeera.net/
    [3]: http://mnet.sf.net/
-
-
-

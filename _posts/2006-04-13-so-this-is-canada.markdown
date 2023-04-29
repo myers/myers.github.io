@@ -14,4 +14,3 @@ tags: []
 <p>So, this thought went thru my head: Python = Snake, speaking snake is Parseltongue, Ruby = Red, Red = Gryphindor&#8217;s color, Harry Potter wears glasses, <strong>I</strong> wear glases, I also speak python and hang out with the Ruby guys&#8230;. so I&#8217;m the Harry F-ing Potter of Rosetta Stone?</p>
 
 <p>Tomorrow I join the Royal Canadien Kilted Yaksmen or see David Heinemeier Hansson, one of the two, it&#8217;s becoming fuzzy.</p>
-

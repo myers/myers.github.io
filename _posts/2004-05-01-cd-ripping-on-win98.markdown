@@ -18,4 +18,3 @@ tags: []
 <p>CDex work under WinNT based systems, because M$ added calls to access <span class="caps">CDDA</span> in those versions, but it still pops up a warning first.</p>
 
 <p>Given the grief it took to rip my own CD on a Napster Era PC I can totally believe people would get on Napster to just get music they already owned on their computer.  Not that I think that&#8217;s all they did.</p>
-

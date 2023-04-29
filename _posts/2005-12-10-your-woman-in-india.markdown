@@ -12,4 +12,3 @@ tags: []
 </blockquote>
 
 <p>The internet turns the whole world into a service economy.</p>
-

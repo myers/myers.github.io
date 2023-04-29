@@ -14,4 +14,3 @@ tags: []
 <p><a href="http://www.whatthemuffins.com/faq.asp">What the Muffins?</a> &#8211; a web sitcom (not bt + rss enabled).</p>
 
 <p>We need a plug in to some php content managment frame work that provides a tracker, and rss feed, and is easy to deploy.</p>
-

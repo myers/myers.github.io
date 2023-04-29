@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Steve Baker"
 date: 2006-04-13T19:49:48
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p>_I think this is <a href="http://blog.lavalamp.ca/_">his blog</a></p>
@@ -34,4 +34,3 @@ tags: ["canada-on-rails"]
 </ul>
 
 <p><em>Listening to people having a hard sell to get their bosses to allow <span class="caps">TDD</span> makes me glad to work at RS</em></p>
-

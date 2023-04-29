@@ -2,7 +2,7 @@
 layout: post
 title: "Canada on Rails: Opening keynote: David"
 date: 2006-04-13T13:34:50
-tags: ["canada-on-rails"]
+tags: [canada-on-rails]
 ---
 
 <p>Watching <a href="http://en.wikipedia.org/wiki/David_Heinemeier_Hansson">David Heinemeier Hansson</a> <br />give the keynotes at .ca on rails.</p>
@@ -76,7 +76,7 @@ tags: ["canada-on-rails"]
 <li>make a link that does a <span class="caps">POST</span>.  Fix <span class="caps">HTML</span> problems (_Wish they could fix bloody <span class="caps">HTTP</span> auth_).</li>
 <li>exposing <span class="caps">REST</span> api.  Need a single controller map two resources &#8220;/articles/&#8221; and then &#8220;/article/1&#8221;.  Something committed last night.</li>
 <li>entities (&#8221;/article/1&#8221;) can be worked on via verbs</li>
-<li>_If you are interested in this go read <a href="http://en.wikipedia.org/wiki/REST">this article on REST</a> _</li>
+<li>_If you are interested in this go read <a href="http://en.wikipedia.org/wiki/REST">this article on REST</a>_</li>
 <li>Making the rest of Rails see everything as a REST-style request, and making browser base resquest look like <span class="caps">REST</span> to the framework.</li>
 <li>Optional.  If you follow convention you get a lot of stuff for free.</li>
 <li>In <a href="http://svn.jamisbuck.org/rails-plugins/simply_restful/">SVN</a></li>
@@ -98,4 +98,3 @@ tags: ["canada-on-rails"]
 <p><a href="http://37s.campfirenow.com/eb527">Canada on Rails Campfire Room</a></p>
 
 <p><a href="http://www.flickr.com/groups/canadaonrails/pool/">Canada on Rails Flickr Pool</a></p>
-

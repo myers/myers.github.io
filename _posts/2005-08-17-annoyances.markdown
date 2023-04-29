@@ -15,4 +15,3 @@ tags: []
 </ul>
 
 <p>&#8220;If you really loved me you&#8217;d kill yourself.&#8221;  &#8212; spider jerusalem</p>
-

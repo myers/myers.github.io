@@ -2,7 +2,7 @@
 layout: post
 title: "RailsConf 2008: Friday Early Morning"
 date: 2008-05-30T13:43:25
-tags: ["railsconf2008"]
+tags: [railsconf2008]
 ---
 
 <p>(notes from mostly Randy and a little from me)</p>
@@ -87,4 +87,3 @@ tags: ["railsconf2008"]
 </ul>
 
 <p>(it was interesting, because he didn&#8217;t have a final point.  At the end he compared some blog posts that <span class="caps">DHH</span> and _why wrote about ruby and it had all these good words (passion, love, ...).  He swapped them to their antonym and labeled it Java.  I expected him to follow with telling us that there was a common misattribution with rails and these feelings and that we could find the same else where)</p>
-

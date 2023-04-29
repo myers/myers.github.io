@@ -5,22 +5,19 @@ date: 2002-07-17T08:22:30
 tags: []
 ---
 
-I got back from [H2K2][1] late Sunday night. I have much to tell, but the two biggest items are secrets so I can't post them. Annoying. 
+I got back from [H2K2][1] late Sunday night. I have much to tell, but the two biggest items are secrets so I can't post them. Annoying.
 
-Here is a non-secret that is related to one of the two secrets: Ryan Lackey is talking about [OpenDBS][2], a electronic cash system he is planning on launching soon at [DEF CON X][3]. Since the DEF CON website's anchor tags arn't working in konqueror or galeon (I check the html and it seems correct) I'm cutting and pasting the releveant bits. 
+Here is a non-secret that is related to one of the two secrets: Ryan Lackey is talking about [OpenDBS][2], a electronic cash system he is planning on launching soon at [DEF CON X][3]. Since the DEF CON website's anchor tags arn't working in konqueror or galeon (I check the html and it seems correct) I'm cutting and pasting the releveant bits.
 
-From [the speaker's page][4]: 
+From [the speaker's page][4]:
 
 > **Anonymous, secure, open electronic cash**
-> 
-> Electronic cash has been the lynchpin of cypherpunk software goals for decades -- yet, there is no viable electronic cash system in the marketplace. We will describe the theory, applications, past attempts, politics, failures, and successes in the field. We present a specification and implementation of a new system which is secure, open, extensible, Free, and which will hopefully avoid the technical and strategy mistakes which plagued earlier systems. We will solicit developer involvement in creating applications which use this infrastructure. We hope this infrastructure is a first step toward limiting the power of governments and other oppressors vs. individuals and small groups throughout the world. It is also an example of how to proivide a critical infrastructure application, in an open-source form, in the post-dotcom world, and a generally-applicable demonstration of how security hardware and software can be used in applications to win user trust. 
-> 
-> Ryan Lackey, founder and CTO of HavenCo, has been involved with electronic cash and other cypherpunk applications for years. In addition to HavenCo and living full-time on Sealand, he works on several open-source software and hardware projects which are finally ready for public launch. He has a great interest in seeing technology deployed in the service of individuals fighting against the State. 
+>
+> Electronic cash has been the lynchpin of cypherpunk software goals for decades -- yet, there is no viable electronic cash system in the marketplace. We will describe the theory, applications, past attempts, politics, failures, and successes in the field. We present a specification and implementation of a new system which is secure, open, extensible, Free, and which will hopefully avoid the technical and strategy mistakes which plagued earlier systems. We will solicit developer involvement in creating applications which use this infrastructure. We hope this infrastructure is a first step toward limiting the power of governments and other oppressors vs. individuals and small groups throughout the world. It is also an example of how to proivide a critical infrastructure application, in an open-source form, in the post-dotcom world, and a generally-applicable demonstration of how security hardware and software can be used in applications to win user trust.
+>
+> Ryan Lackey, founder and CTO of HavenCo, has been involved with electronic cash and other cypherpunk applications for years. In addition to HavenCo and living full-time on Sealand, he works on several open-source software and hardware projects which are finally ready for public launch. He has a great interest in seeing technology deployed in the service of individuals fighting against the State.
 
    [1]: http://www.h2k2.net/
    [2]: http://www.opendbs.com
    [3]: http://www.defcon.org/
    [4]: http://www.defcon.org/dcx-speakers.html#ryanlackey
-
-
-

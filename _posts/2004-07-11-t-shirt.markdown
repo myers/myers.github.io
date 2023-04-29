@@ -2,7 +2,7 @@
 layout: post
 title: "T-shirt"
 date: 2004-07-11T13:03:13
-tags: ["photoblog"]
+tags: [photoblog]
 ---
 
 ![T-shirt][1]
@@ -10,6 +10,3 @@ tags: ["photoblog"]
 T-shirt
 
    [1]: /2004/07/11/16375850242_0.jpg
-
-
-

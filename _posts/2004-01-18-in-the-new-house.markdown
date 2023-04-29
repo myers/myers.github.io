@@ -20,6 +20,3 @@ and it's a big step up in quality of living for them.
 
    [1]: /gallery/harrisonburg_house
    [2]: http://www.shellbook.com/
-
-
-
