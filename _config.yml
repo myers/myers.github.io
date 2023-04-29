@@ -1,12 +1,13 @@
-name: Shutup and Code
+title: Shutup and Code
 markdown: kramdown
 highlighter: rouge
-pygments: true
 safe: true
 lsi: false
-include: [".well-known", "tag"]
-
+include: [".well-known"]
+timezone: America/New_York
 permalink: pretty
-
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 url: http://icepick.info
