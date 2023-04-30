@@ -2,42 +2,24 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p class="meta">published: {{ page.date | date_to_string }} | tags:
-  {% for tag in page.tags %}
-    <a href="/tag/{{ tag }}">{{ tag }}</a>
-  {% endfor %}
-</p>
-
-{{ content }}
-
-<div id="page-navigation">
-  <div class="clear">&nbsp;</div>
-  <div class="left">
-    {% if page.previous.url %}
-      <a href="{{page.previous.url}}" title="Previous Post:
-                		{{page.previous.title}}">&laquo; {{ page.previous.title }}</a>
-    {% endif %}
-  </div>
-
-  <div class="right">
-    {% if page.next.url %}
-      <a href="{{page.next.url}}" title="next Post:
-                		{{page.next.title}}">{{ page.next.title }} &raquo;
-      </a>
-    {% endif %}
-  </div>
-  <div class="clear">&nbsp;</div>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
 </div>
 
-<div class="comments">
-  <hr/>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript" src="https://disqus.com/forums/shutupandcode/embed.js"></script>
-  <noscript>
-    <a href="https://disqus.com/forums/shutupandcode/?url=ref">View the discussion thread.</a>
-  </noscript>
-  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by
-    <span class="logo-disqus">Disqus</span>
-  </a>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

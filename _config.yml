@@ -1,13 +1,25 @@
-title: Shutup and Code
+# Dependencies
 markdown: kramdown
 highlighter: rouge
-safe: true
-lsi: false
-include: [".well-known"]
-timezone: America/New_York
-permalink: pretty
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+timezone: America/New_York
+include: [".well-known"]
+safe: true
 
+# Permalinks
+permalink: pretty
+
+# Setup
+title: 'Shutup and Code'
+tagline: 'babblings of Myers Carpenter'
+description: ''
 url: http://icepick.info
+baseurl: /
+
+author:
+  name: 'Myers Carpenter'
+  url: https://github.com/myers
+
+paginate: 5
