@@ -23,5 +23,9 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- ATOM -->
-  <link rel="alternate" type="application/atom+xml" title="ATOM" href="/atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="ATOM" href="/feed.xml">
+
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+  {% endif %}
 </head>
