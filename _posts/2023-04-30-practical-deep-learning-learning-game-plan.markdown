@@ -11,8 +11,8 @@ I dug this video up from the older version of [Practical Deep Learning for Coder
 
 My take aways:
 
-- Practical work is the goal.  Don't fool yourself into thinking you know what is taught by just watching the videos or reading the book.  Watch the video, watch it again but with the tools at hand, pausing to try stuff out, do a project using what you learned.
-- I have my own ML workstation setup with a GPU.  I used poetry to set it up.  This was a pain due to lack of attention to repeatability.  Below is what it looks like after finishing Lesson 1 (the next video).
+- Practical work is the goal.  Don't fool yourself into thinking you know what is taught by just watching the videos or reading the book.  Watch the video, watch it again but with the tools at hand, pausing to try stuff out, do a project using what you learned.  The title of this blog is me trying to remind myself of this concept.
+- I have my own ML workstation setup with a GPU.  I used poetry to set it up.  This was a pain due to lack of attention to repeatability in Jupyter Notebooks.  It would be very useful if they had a "lock" feature that records all python packages in the environment they are run it and their exact version.  Below is what it looks like after finishing Lesson 1 (the next video).
 - Be tenacious.  Finish a project.
 - One message that's very close to my heart is not keep on getting ready to do a project, like stopping to learn [linear algebra](https://www.khanacademy.org/math/linear-algebra) (and then remembering how I never learned all the math terms, and therefore want to go back even deeper) in order to do well on this course.  Try to do a complete project, then on the next project go deeper, dig in deeper when the code needs it.
 - Show your work to the world.  Blog not to be a breaking news source, but blog for the audience of yourself 6 months ago.
