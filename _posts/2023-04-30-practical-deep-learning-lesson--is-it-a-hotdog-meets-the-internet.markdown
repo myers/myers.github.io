@@ -7,6 +7,10 @@ tags: [machine-learning]
 
 [Practical Deep Learning for Coders](https://course.fast.ai/) [Lesson 2](https://course.fast.ai/Lessons/lesson2.html): Let's share this with the world.
 
+Take aways from video:
+
+- make a model, then clean the data.  The initial model you create will help you find the data that doesn't seem to fit it's generalization hypothesis.
+
 I have shipped even more ML code: [Hotdog or Not?](https://huggingface.co/spaces/myers/hotdog-or-not)
 
 <figure>
