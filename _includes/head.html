@@ -1,13 +1,31 @@
 <head>
-    <meta charset=utf-8 />
-    <title>{{ site.name }}: {{ page.title }}</title>
-    <link rel="stylesheet" media="screen" type="text/css" href="/css/styles.css" />
-    <link rel="alternate" type="application/atom+xml" href="/atom/index.atom" title="Atom Feed" />
-    <link rel="alternate" type="application/rss+xml" href="/rss/index.xml" title="RSS Feed" />
-    <meta name="DC.title" content="Shutup and Code" />
-    <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
-    <link rel="openid2.local_id" href="https://www.google.com/accounts/o8/id">
-    {% if site.tags != "" %}
-      {% include collecttags.html %}
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
     {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Press+Start+2P">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+
+  <!-- ATOM -->
+  <link rel="alternate" type="application/atom+xml" title="ATOM" href="/feed.xml">
+
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+  {% endif %}
 </head>

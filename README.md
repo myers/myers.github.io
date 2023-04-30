@@ -17,3 +17,7 @@ pre-commit install
 ## gem versions
 
 see https://pages.github.com/versions/
+
+## theme
+
+based off of https://github.com/poole/hyde
