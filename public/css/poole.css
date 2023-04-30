@@ -261,6 +261,8 @@ img {
   margin: 0 0 1rem;
   border-radius: 5px;
   height: auto;
+  width: auto;
+  max-height: 90vh;
 }
 
 /* Tables */
