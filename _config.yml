@@ -15,8 +15,10 @@ permalink: pretty
 title: 'Shutup and Code'
 tagline: 'babblings of Myers Carpenter'
 description: ''
-url: http://icepick.info
-baseurl: /
+url: http://icepick.info/
+baseurl: '/'
+
+repository: myers/myers.github.io
 
 author:
   name: 'Myers Carpenter'
