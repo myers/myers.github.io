@@ -9,7 +9,7 @@ tags: [machine-learning]
 
 The biggest change since I last took a course on Machine Learning is one of the key points of this course:  the use of foundational models that you fine tune to get great results.  In this lesson's video we fine tune an image classifier to see if a picture has a bird in it.
 
-While building my own model I attempted to get the classifier fine tuned to look at comic book covers and tell me what publisher it was from.  I thought with the publishers mark on 100 issues from Marvel, DC, Dark Horse, and Image the classifier would be able to tell.  The best I was able to do was about 30% error rate.  I tried a few different ideas of how to improve:
+While building my own model I attempted to get the classifier fine tuned to look at comic book covers and tell me what publisher it was from.  I thought with the publishers mark on 100 issues from Marvel, DC, Dark Horse, and Image the classifier would be able to tell.  The best I was able to do was about 30% error rate, a far cry from the 0% in the example models.  I tried a few different ideas of how to improve:
 
 - train with larger images.  The notebook used in the video makes the training go faster by reducing the size of the image.  As I write this I wonder if it is even possible to use larger images in a model that might have been trained on a fixed size.
 - create a smaller image by getting the 4 corners of the cover into one image.
