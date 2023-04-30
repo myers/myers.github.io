@@ -274,3 +274,8 @@ a.sidebar-nav-item:focus {
   color: #6c757d;
   font-size: smaller;
 }
+
+figcaption {
+  font-style: italic;
+  font-size: smaller;
+}
