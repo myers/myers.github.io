@@ -26,3 +26,4 @@ paginate: 5
 
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
