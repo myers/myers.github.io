@@ -15,7 +15,7 @@ While building my own model I attempted to get the classifier fine tuned to look
 - create a smaller image by getting the 4 corners of the cover into one image.
 - clean the data so that all the covers in the dataset had a publisher mark on them.
 
- <figure>
+<figure>
   <img src="/2023/04/30/X-Men - Red (2022-) 001-000.jpg" width="372" height="573" />
   <figcaption>sample cover from <a href="https://www.comics.org/issue/2403738/">X-Men Red #2</a> with only the corners</figcaption>
 </figure>
