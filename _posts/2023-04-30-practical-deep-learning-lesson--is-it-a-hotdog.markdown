@@ -17,7 +17,7 @@ While building my own model I attempted to get the classifier fine tuned to look
 
  <figure>
   <img src="/2023/04/30/X-Men - Red (2022-) 001-000.jpg" width="372" height="573" />
-  <figcaption>sample cover with only the corners</figcaption>
+  <figcaption>sample cover from [X-Men Red #2](https://www.comics.org/issue/2403738/) with only the corners</figcaption>
 </figure>
 
 Nothing moved the needle.  I'm hoping something I learn later in the course will give me the insight I need to do better.
