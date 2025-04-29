@@ -8,4 +8,4 @@ gem "jekyll", "~> 3.9.3"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
 gem "jekyll-feed", "0.15.1", group: :jekyll_plugins
-gem "nokogiri", "~> 1.18.3"
+gem "nokogiri", "~> 1.18.8"
