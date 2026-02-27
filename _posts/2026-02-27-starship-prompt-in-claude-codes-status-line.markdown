@@ -22,9 +22,11 @@ codes with shell-specific escape sequences - `%{...%}` for zsh, `\[...\]`
 for bash.  Claude Code isn't a shell, so those sequences show up as
 literal garbage:
 
+{% raw %}
 ```
 [Opus 4.6] | ctx:18% | %{%}~/p/dot-files%{%} on %{%} %{%}main%{%} %{%}❯%{%}
 ```
+{% endraw %}
 
 The fix: set `STARSHIP_SHELL=plain`.  There's no actual "plain" shell type
 in starship's code (I checked - it has bash, fish, zsh, etc.), but
