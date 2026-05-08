@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4"
 gem "webrick", "~> 1.8"
-gem "nokogiri", ">= 1.19.1"
+gem "nokogiri", ">= 1.19.3"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
